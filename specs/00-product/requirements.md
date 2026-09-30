@@ -1,12 +1,12 @@
 # Gera Forms — Product Requirements
 
-**Status:** Draft  
+**Status:** Approved  
 **Revision:** 2  
 **Lifecycle Phase:** 02 — Product Requirements  
 **Milestone:** MVP  
-**Source:** `specs/00-product/vision.md` — Revision 2 Draft  
+**Source:** `specs/00-product/vision.md` — Revision 2 approved 
 **Previous approved baseline:** 2026-09-21  
-**Last reviewed:** 2026-09-29  
+**Last reviewed:** 2026-09-30 
 
 ---
 
@@ -1717,29 +1717,5 @@ Primera línea base formal de Product Requirements.
 **Retired identifiers:** 1 (`PR-SYNC-002`)
 
 Incorpora las decisiones CL-014 a CL-025 y corrige inconsistencias documentales detectadas durante la preparación de User Stories.
-
----
-
-# 25. Approval Status
-
-**Status:** Draft  
-**Revision:** 2  
-**Previous approved baseline:** 2026-09-21  
-**Revision 2 approval:** Pending  
-
-Revision 2 no constituye todavía una nueva línea base aprobada.
-
-Los nuevos requisitos y las modificaciones de comportamiento deberán considerarse `DRAFT` hasta aprobación explícita.
-
-Una vez aprobada Revision 2:
-
-1. sus requisitos pasarán a constituir la nueva baseline autoritativa;
-2. deberán actualizarse los estados correspondientes a `APPROVED`;
-3. deberá actualizarse `STATE.md`;
-4. las User Stories deberán trazarse contra esta nueva baseline;
-5. `PR-SYNC-002` continuará en estado `RETIRED`;
-6. la aprobación no autorizará implementación ni selección de arquitectura.
-
----
 
 **End of requirements.md — Revision 2**

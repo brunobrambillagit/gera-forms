@@ -1,11 +1,11 @@
 # Gera Forms — Product Vision
 
-**Status:** Draft  
+**Status:** Approved  
 **Revision:** 2  
 **Lifecycle Phase:** 01 — Discovery  
 **Milestone:** MVP  
 **Previous approved baseline:** 2026-09-21  
-**Last reviewed:** 2026-09-29  
+**Last reviewed:** 2026-09-30  
 
 ---
 
@@ -715,21 +715,5 @@ Esta revisión incorpora las decisiones funcionales tomadas durante la preparaci
 
 Las decisiones anteriores complementan y, cuando existe contradicción, sustituyen el comportamiento correspondiente de la baseline aprobada el 2026-09-21.
 
----
-
-# 28. Approval Status
-
-**Status:** Draft  
-**Revision:** 2  
-**Previous approved baseline:** 2026-09-21  
-**Revision 2 approval:** Pending  
-
-Esta revisión todavía no constituye una nueva línea base aprobada.
-
-La aprobación de Revision 2 deberá realizarse explícitamente antes de utilizarla como fuente autoritativa definitiva para User Stories y Acceptance Criteria.
-
-La aprobación de este documento no autoriza implementación ni selección de arquitectura.
-
----
 
 **End of vision.md — Revision 2**
