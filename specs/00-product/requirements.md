@@ -78,7 +78,7 @@ Los requisitos se organizan en:
 ## PR-AUTH-001 — Supported Roles
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Gera Forms deberá soportar exactamente dos roles funcionales iniciales:
@@ -100,7 +100,7 @@ Los permisos funcionales administrables no implican la creación de nuevos roles
 ## PR-AUTH-002 — Administrator User Management
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Un Administrador deberá poder crear y modificar usuarios, activarlos, desactivarlos y restablecer sus contraseñas.
@@ -116,7 +116,7 @@ PR-AUTH-001.
 ## PR-AUTH-003 — No Self-Registration
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Gera Forms no deberá permitir el auto-registro de usuarios dentro del alcance inicial.
@@ -134,7 +134,7 @@ PR-AUTH-002.
 ## PR-AUTH-004 — Authenticated Survey Access
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Solamente Encuestadores autenticados, activos y previamente creados en Gera Forms podrán acceder a los formularios correspondientes a su ámbito de acceso.
@@ -150,7 +150,7 @@ PR-AUTH-001, PR-AUTH-002.
 ## PR-AUTH-005 — Initial Online Authentication
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 El primer inicio de sesión de un usuario en un dispositivo deberá realizarse con conectividad suficiente para validar su identidad contra el sistema central.
@@ -166,7 +166,7 @@ PR-AUTH-004.
 ## PR-AUTH-006 — Offline Access Window
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Después de una autenticación online válida, el usuario podrá acceder offline desde ese dispositivo durante un máximo de 24 horas desde dicha autenticación.
@@ -185,7 +185,7 @@ La estrategia técnica de autenticación offline no se define en este documento.
 ## PR-AUTH-007 — Offline Access Expiration
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Una vez vencido el período autorizado de acceso offline, el usuario deberá autenticarse nuevamente online antes de continuar utilizando Gera Forms.
@@ -201,7 +201,7 @@ PR-AUTH-006.
 ## PR-AUTH-008 — Preservation After Authentication Expiration
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 El vencimiento de la autorización offline no deberá eliminar ni invalidar:
@@ -225,7 +225,7 @@ PR-AUTH-006, PR-AUTH-007.
 ## PR-AUTH-009 — User Account Data
 
 **Priority:** P1  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Cada usuario deberá disponer como mínimo de:
@@ -249,7 +249,7 @@ PR-AUTH-002.
 ## PR-AUTH-010 — User Non-Deletion
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Los usuarios no deberán poder eliminarse definitivamente mediante la administración funcional normal.
@@ -267,7 +267,7 @@ PR-AUTH-002.
 ## PR-AUTH-011 — User Permission Management
 
 **Priority:** P1  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 El Administrador deberá poder habilitar y retirar permisos funcionales a los usuarios dentro de las capacidades admitidas por Gera Forms.
@@ -288,7 +288,7 @@ La matriz definitiva de permisos y el mecanismo técnico de autorización se esp
 ## PR-FORM-001 — Administrator Form Creation
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Solamente usuarios Administradores podrán crear formularios.
@@ -304,7 +304,7 @@ PR-AUTH-001.
 ## PR-FORM-002 — Form Question Configuration
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 El Administrador deberá poder agregar, configurar y organizar preguntas dentro de un formulario.
@@ -320,7 +320,7 @@ PR-FORM-001.
 ## PR-FORM-003 — Basic Question Types
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Gera Forms deberá soportar como mínimo:
@@ -341,7 +341,7 @@ PR-FORM-002.
 ## PR-FORM-004 — Extended Data Types
 
 **Priority:** P1  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Gera Forms deberá permitir recopilar:
@@ -365,7 +365,7 @@ PR-FORM-002.
 ## PR-FORM-005 — Form Availability Control
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 La creación de un formulario no deberá hacerlo automáticamente utilizable por Encuestadores.
@@ -383,7 +383,7 @@ PR-FORM-001.
 ## PR-FORM-006 — Form Draft Saving
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 El Administrador deberá poder guardar y modificar un formulario como borrador tantas veces como sea necesario sin generar una nueva versión por cada guardado.
@@ -399,7 +399,7 @@ PR-FORM-001.
 ## PR-FORM-007 — Required and Optional Questions
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 El Administrador deberá poder configurar individualmente cada pregunta como:
@@ -422,7 +422,7 @@ PR-FORM-002.
 ## PR-VERSION-001 — Form Publication
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 El Administrador deberá poder utilizar una acción `Publicar formulario` para generar una versión utilizable.
@@ -438,7 +438,7 @@ PR-FORM-001, PR-FORM-002, PR-FORM-006.
 ## PR-VERSION-002 — Automatic Version Generation
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Cada nueva publicación deberá generar automáticamente una nueva versión identificable.
@@ -456,7 +456,7 @@ PR-VERSION-001.
 ## PR-VERSION-003 — Published Version Immutability
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Una versión publicada deberá conservar su estructura histórica y no deberá ser modificada retroactivamente por cambios destinados a una publicación posterior.
@@ -472,7 +472,7 @@ PR-VERSION-002.
 ## PR-VERSION-004 — Survey-to-Version Association
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Toda encuesta deberá quedar asociada a la versión exacta del formulario utilizada para realizarla.
@@ -488,7 +488,7 @@ PR-VERSION-002, PR-VERSION-003.
 ## PR-VERSION-005 — Historical Version Results
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Los resultados correspondientes a versiones anteriores deberán continuar visualizándose e interpretándose utilizando la estructura correspondiente a esas versiones.
@@ -504,7 +504,7 @@ PR-VERSION-003, PR-VERSION-004.
 ## PR-VERSION-006 — New Version Notification
 
 **Priority:** P1  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Cuando exista una nueva versión de un formulario descargado, Gera Forms deberá informar al Encuestador que existe una actualización disponible.
@@ -520,7 +520,7 @@ PR-VERSION-002, PR-ASSIGN-004.
 ## PR-VERSION-007 — Version Update Blocking
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 El Encuestador no podrá reemplazar la versión descargada mientras existan para esa versión:
@@ -540,7 +540,7 @@ PR-VERSION-004, PR-SURVEY-003, PR-SYNC-001.
 ## PR-VERSION-008 — Version Update Eligibility
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 La actualización podrá realizarse cuando no quede trabajo pendiente correspondiente a la versión actualmente descargada y las encuestas que debían enviarse hayan sido recibidas exitosamente.
@@ -556,7 +556,7 @@ PR-VERSION-007.
 ## PR-VERSION-009 — Single Local Form Version
 
 **Priority:** P1  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Después de una actualización exitosa, el dispositivo deberá conservar para uso operativo únicamente la última versión descargada del formulario.
@@ -574,7 +574,7 @@ PR-VERSION-008.
 ## PR-ASSIGN-001 — Form Assignment
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 El Administrador deberá poder habilitar un formulario publicado para Encuestadores específicos.
@@ -590,7 +590,7 @@ PR-AUTH-001, PR-VERSION-001.
 ## PR-ASSIGN-002 — Assigned Forms Visibility
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Un Encuestador deberá visualizar los formularios que tenga habilitados, incluyendo cuando corresponda aquellos que permanezcan transitoriamente disponibles por una desasignación con trabajo pendiente.
@@ -606,7 +606,7 @@ PR-ASSIGN-001, PR-ASSIGN-007.
 ## PR-ASSIGN-003 — Explicit Form Download
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 El Encuestador deberá descargar explícitamente un formulario antes de poder utilizarlo.
@@ -622,7 +622,7 @@ PR-ASSIGN-002.
 ## PR-ASSIGN-004 — Download Required for Online and Offline Use
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 La descarga previa será obligatoria tanto para utilización online como offline.
@@ -638,7 +638,7 @@ PR-ASSIGN-003.
 ## PR-ASSIGN-005 — Offline Availability
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Un formulario correctamente descargado deberá permanecer disponible offline mientras el usuario posea autorización offline válida y el formulario continúe dentro de su ámbito operativo.
@@ -654,7 +654,7 @@ PR-ASSIGN-004, PR-AUTH-006.
 ## PR-ASSIGN-006 — Multiple and All-Surveyor Assignment
 
 **Priority:** P1  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 El Administrador deberá poder habilitar un formulario:
@@ -674,7 +674,7 @@ PR-ASSIGN-001.
 ## PR-ASSIGN-007 — Deferred Form Unassignment
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Cuando el Administrador retire a un Encuestador la habilitación de un formulario y existan encuestas pendientes asociadas, la desasignación deberá permanecer en espera hasta que el trabajo pendiente sea resuelto.
@@ -699,7 +699,7 @@ Los Acceptance Criteria definirán las acciones permitidas durante el estado tra
 ## PR-SURVEY-001 — Start Survey
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Un Encuestador deberá poder iniciar una encuesta utilizando un formulario descargado y habilitado para iniciar nuevos relevamientos.
@@ -715,7 +715,7 @@ PR-ASSIGN-004.
 ## PR-SURVEY-002 — Survey Draft Save
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 El Encuestador deberá poder guardar una encuesta como borrador y continuarla posteriormente.
@@ -733,7 +733,7 @@ PR-SURVEY-001.
 ## PR-SURVEY-003 — Local Survey Persistence
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Las encuestas iniciadas deberán conservarse localmente hasta completar correctamente su flujo de envío o hasta que una política futura expresamente aprobada determine otra cosa.
@@ -749,7 +749,7 @@ PR-SURVEY-001.
 ## PR-SURVEY-004 — Draft Editing
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Una encuesta deberá poder modificarse mientras permanezca como borrador y no haya sido enviada exitosamente.
@@ -765,7 +765,7 @@ PR-SURVEY-002.
 ## PR-SURVEY-005 — Successful Submission Lock
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Una encuesta enviada exitosamente deberá quedar bloqueada para edición por parte del Encuestador.
@@ -781,7 +781,7 @@ PR-SURVEY-004, PR-SYNC-005.
 ## PR-SURVEY-006 — Visible Survey Identifier
 
 **Priority:** P1  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Cada encuesta deberá poseer un identificador numérico visible para el Administrador y, dentro de su ámbito de acceso, para el Encuestador.
@@ -802,7 +802,7 @@ La estrategia técnica de generación del identificador se definirá posteriorme
 ## PR-OFFLINE-001 — Core Offline Operation
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Gera Forms deberá permitir realizar el flujo operativo de relevamiento sin conexión utilizando formularios previamente descargados.
@@ -818,7 +818,7 @@ PR-AUTH-006, PR-ASSIGN-005.
 ## PR-OFFLINE-002 — Offline Survey Creation
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 El Encuestador deberá poder iniciar, completar en contenido y guardar nuevas encuestas como borradores mientras se encuentre offline utilizando formularios descargados.
@@ -836,7 +836,7 @@ PR-OFFLINE-001, PR-SYNC-001.
 ## PR-OFFLINE-003 — Offline Survey Continuation
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 El Encuestador deberá poder continuar offline encuestas previamente iniciadas y almacenadas localmente.
@@ -852,7 +852,7 @@ PR-SURVEY-002, PR-OFFLINE-001.
 ## PR-OFFLINE-004 — Local Data Preservation
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 La ausencia de conectividad, el cierre de Gera Forms o el vencimiento de la autorización offline no deberán provocar pérdida de encuestas o archivos almacenados localmente.
@@ -870,7 +870,7 @@ PR-AUTH-008, PR-SURVEY-003, PR-FILE-002.
 ## PR-SYNC-001 — Manual Survey Finalization
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 El Encuestador deberá iniciar manualmente el envío definitivo de una encuesta mediante una acción funcional equivalente a `Finalizar`.
@@ -914,7 +914,7 @@ None.
 ## PR-SYNC-003 — Batch Survey Finalization
 
 **Priority:** P1  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 El Encuestador deberá disponer de una acción equivalente a `Finalizar todos`.
@@ -938,7 +938,7 @@ PR-SYNC-001.
 ## PR-SYNC-004 — Synchronization Status
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Cada encuesta deberá exponer claramente uno de los siguientes estados de envío/sincronización cuando corresponda:
@@ -959,7 +959,7 @@ PR-SYNC-001.
 ## PR-SYNC-005 — Successful Synchronization
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Una encuesta solo deberá adoptar el estado `Sincronizado` cuando su envío haya finalizado exitosamente y el sistema central haya confirmado su recepción correcta.
@@ -975,7 +975,7 @@ PR-SYNC-004.
 ## PR-SYNC-006 — Synchronization Error Preservation
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Cuando un envío falle, la encuesta deberá adoptar el estado `Error de sincronización` y conservar localmente toda la información necesaria para permitir un intento posterior.
@@ -991,7 +991,7 @@ PR-SYNC-004.
 ## PR-SYNC-007 — Synchronization Retry
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 El Encuestador deberá poder volver a intentar manualmente el envío de una encuesta en `Error de sincronización`.
@@ -1009,7 +1009,7 @@ PR-SYNC-006.
 ## PR-LOCATION-001 — Location Requirement Configuration
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 El Administrador deberá poder configurar cada formulario con:
@@ -1029,7 +1029,7 @@ PR-FORM-001.
 ## PR-LOCATION-002 — Device Location
 
 **Priority:** P1  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Cuando corresponda registrar ubicación, Gera Forms deberá permitir obtenerla utilizando los servicios de ubicación disponibles en el dispositivo.
@@ -1045,7 +1045,7 @@ PR-LOCATION-001.
 ## PR-LOCATION-003 — Manual Address
 
 **Priority:** P1  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Cuando corresponda registrar ubicación, el Encuestador deberá poder ingresar manualmente una dirección.
@@ -1061,7 +1061,7 @@ PR-LOCATION-001.
 ## PR-LOCATION-004 — Map Location Selection
 
 **Priority:** P1  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Cuando corresponda registrar ubicación, el Encuestador deberá poder seleccionar manualmente una ubicación mediante un mapa cuando dicha capacidad se encuentre disponible.
@@ -1080,7 +1080,7 @@ El comportamiento online/offline del mapa se determinará posteriormente.
 ## PR-LOCATION-005 — Required Location Validation
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Cuando un formulario esté configurado con `Ubicación obligatoria`, la encuesta no podrá finalizarse hasta satisfacer una modalidad válida de ubicación.
@@ -1098,7 +1098,7 @@ PR-LOCATION-001, PR-SYNC-001.
 ## PR-FILE-001 — Survey Attachments
 
 **Priority:** P1  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Los formularios deberán poder permitir incorporación de archivos, incluyendo fotografías y documentos, cuando el tipo de pregunta correspondiente lo permita.
@@ -1114,7 +1114,7 @@ PR-FORM-004.
 ## PR-FILE-002 — Offline Attachment Storage
 
 **Priority:** P1  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Los archivos incorporados durante una encuesta deberán poder almacenarse localmente cuando el dispositivo se encuentre offline.
@@ -1130,7 +1130,7 @@ PR-FILE-001, PR-OFFLINE-001.
 ## PR-FILE-003 — Attachment Submission
 
 **Priority:** P1  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Los archivos asociados a una encuesta deberán enviarse al sistema central como parte del proceso de finalización correspondiente.
@@ -1146,7 +1146,7 @@ PR-FILE-002, PR-SYNC-001.
 ## PR-FILE-004 — Local Retention After Submission
 
 **Priority:** P1  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 El envío exitoso de un archivo no deberá eliminar automáticamente su copia local.
@@ -1162,7 +1162,7 @@ PR-FILE-003.
 ## PR-FILE-005 — Manual Local File Deletion
 
 **Priority:** P1  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 El Encuestador deberá poder eliminar manualmente del dispositivo archivos locales que ya no desee conservar.
@@ -1178,7 +1178,7 @@ PR-FILE-004.
 ## PR-FILE-006 — Server Copy Preservation
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 La eliminación de una copia local de un archivo previamente enviado correctamente no deberá eliminar la copia almacenada en el sistema central.
@@ -1196,7 +1196,7 @@ PR-FILE-003, PR-FILE-005.
 ## PR-AUDIT-001 — Detailed Modification Audit
 
 **Priority:** P1  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Toda modificación realizada sobre una encuesta mientras permanezca editable deberá generar información de auditoría detallada.
@@ -1212,7 +1212,7 @@ PR-SURVEY-004.
 ## PR-AUDIT-002 — Audit Information
 
 **Priority:** P1  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Cada registro de modificación deberá identificar como mínimo:
@@ -1234,7 +1234,7 @@ PR-AUDIT-001.
 ## PR-AUDIT-003 — Administrator Audit Access
 
 **Priority:** P1  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 El Administrador deberá poder consultar la auditoría asociada a las encuestas.
@@ -1250,7 +1250,7 @@ PR-AUDIT-001.
 ## PR-AUDIT-004 — Surveyor Audit Access
 
 **Priority:** P2  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 El Encuestador deberá poder consultar la información de auditoría correspondiente a sus propias encuestas cuando dicha información se encuentre disponible dentro de su ámbito de acceso.
@@ -1268,7 +1268,7 @@ PR-AUDIT-001.
 ## PR-RESULT-001 — Administrator Results Access
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 El Administrador deberá poder consultar las encuestas enviadas correctamente al sistema central.
@@ -1284,7 +1284,7 @@ PR-SYNC-005.
 ## PR-RESULT-002 — Results by Form
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 El Administrador deberá poder identificar los resultados correspondientes a cada formulario.
@@ -1300,7 +1300,7 @@ PR-RESULT-001.
 ## PR-RESULT-003 — Results by Form Version
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 El Administrador deberá poder identificar qué versión fue utilizada para cada encuesta y consultar sus respuestas conforme a dicha versión.
@@ -1316,7 +1316,7 @@ PR-VERSION-004, PR-RESULT-001.
 ## PR-RESULT-004 — Result Detail Information
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 La consulta de una encuesta deberá permitir identificar como mínimo:
@@ -1340,7 +1340,7 @@ PR-RESULT-001, PR-SURVEY-006.
 ## PR-RESULT-005 — Result Search and Filtering
 
 **Priority:** P1  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 La consulta de resultados deberá proporcionar capacidades de búsqueda y filtros.
@@ -1359,7 +1359,7 @@ Los campos y combinaciones concretas de filtrado se definirán en User Stories y
 ## PR-RESULT-006 — Basic Response Chart
 
 **Priority:** P1  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Gera Forms deberá proporcionar al Administrador una visualización básica mediante gráfico de torta para respuestas categóricas cuya naturaleza permita una agregación de este tipo.
@@ -1379,7 +1379,7 @@ PR-RESULT-001, PR-FORM-003.
 ## PR-PLATFORM-001 — Progressive Web Application
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Gera Forms deberá ser provisto como una Progressive Web App.
@@ -1395,7 +1395,7 @@ None.
 ## PR-PLATFORM-002 — Smartphone Support
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Gera Forms deberá poder utilizarse desde smartphones Android y iPhone compatibles con las capacidades requeridas.
@@ -1411,7 +1411,7 @@ PR-PLATFORM-001.
 ## PR-PLATFORM-003 — Computer Support
 
 **Priority:** P1  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Gera Forms deberá poder utilizarse desde computadoras compatibles.
@@ -1427,7 +1427,7 @@ PR-PLATFORM-001.
 ## PR-PLATFORM-004 — Central Server Deployment
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Los servicios centralizados de Gera Forms deberán poder desplegarse en infraestructura de tipo VPS.
@@ -1446,7 +1446,7 @@ La tecnología específica se determinará durante Architecture.
 ## PR-PLATFORM-005 — Single Organization
 
 **Priority:** P0  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 El alcance inicial deberá soportar una única organización.
@@ -1462,7 +1462,7 @@ None.
 ## PR-PLATFORM-006 — No Required External Integrations
 
 **Priority:** P1  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 El MVP no dependerá funcionalmente de integraciones de negocio con sistemas externos de la organización.
@@ -1483,7 +1483,7 @@ Servicios técnicos necesarios para capacidades internas se evaluarán durante A
 ## PR-FUTURE-001 — CSV Export
 
 **Priority:** P3  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Gera Forms podrá incorporar exportación de resultados en formato CSV.
@@ -1499,7 +1499,7 @@ PR-RESULT-001.
 ## PR-FUTURE-002 — XLSX Export
 
 **Priority:** P3  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Gera Forms podrá incorporar exportación de resultados en formato XLSX.
@@ -1515,7 +1515,7 @@ PR-RESULT-001.
 ## PR-FUTURE-003 — Advanced Results Statistics
 
 **Priority:** P3  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Gera Forms podrá incorporar un apartado de estadísticas avanzadas construido a partir de los resultados recopilados.
@@ -1531,7 +1531,7 @@ PR-RESULT-001.
 ## PR-FUTURE-004 — Advanced Results Visualization
 
 **Priority:** P3  
-**Status:** DRAFT
+**STATUS:** APPROVED
 
 **Requirement:**  
 Gera Forms podrá incorporar visualizaciones y gráficos adicionales o avanzados de los resultados recopilados.
@@ -1711,9 +1711,9 @@ Primera línea base formal de Product Requirements.
 
 ## Revision 2
 
-**Status:** Draft  
-**Last reviewed:** 2026-09-29  
-**Proposed active requirements:** 81  
+**Status:** Approved
+**Approved:** 2026-09-30
+**Active requirements:** 81
 **Retired identifiers:** 1 (`PR-SYNC-002`)
 
 Incorpora las decisiones CL-014 a CL-025 y corrige inconsistencias documentales detectadas durante la preparación de User Stories.
